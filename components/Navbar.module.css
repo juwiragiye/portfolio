@@ -1,0 +1,15 @@
+.navbar {
+  padding: 96px;
+}
+.btn:link,
+.btn:visited {
+  padding: 16px 36px;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+
+.btn:hover,
+.btn:active {
+  background: rgb(218, 218, 218);
+  border-radius: 12px;
+}

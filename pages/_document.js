@@ -25,12 +25,12 @@ class MyDocument extends Document {
           <meta property="og:title" content={meta.title} />
           <meta property="og:image" content={meta.image} />
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:site" content="@yourname" />
+          <meta name="twitter:site" content="@uwiragiye" />
           <meta name="twitter:title" content={meta.title} />
           <meta name="twitter:description" content={meta.description} />
           <meta name="twitter:image" content={meta.image} />
         </Head>
-        <body>
+        <body className="dark:bg-gray-900 bg-white transition duration-500">
           <Main />
           <NextScript />
         </body>
