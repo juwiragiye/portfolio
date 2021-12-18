@@ -1,8 +1,8 @@
-import Link from 'next/link'
-import UnderConstruction from './UnderConstruction'
-
-const Home = () => {
-  return <UnderConstruction />
+import NavBar from '../components/Navbar'
+export default function Home() {
+  return (
+    <div className="home">
+      <NavBar />
+    </div>
+  )
 }
-
-export default Home
